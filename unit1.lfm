@@ -1,0 +1,81 @@
+object Form1: TForm1
+  Left = 723
+  Height = 106
+  Top = 127
+  Width = 193
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Timer'
+  ClientHeight = 106
+  ClientWidth = 193
+  OnCreate = FormCreate
+  LCLVersion = '1.2.6.0'
+  object RunTimer: TButton
+    Left = 104
+    Height = 25
+    Top = 72
+    Width = 83
+    Caption = 'Run Timer'
+    Default = True
+    OnClick = RunTimerClick
+    TabOrder = 0
+  end
+  object TestSound: TButton
+    Left = 8
+    Height = 25
+    Top = 72
+    Width = 83
+    Caption = 'Test Sound'
+    OnClick = TestSoundClick
+    TabOrder = 1
+  end
+  object TimeSec: TEdit
+    Left = 104
+    Height = 25
+    Top = 10
+    Width = 80
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 17
+    Top = 14
+    Width = 87
+    Caption = 'Time (second)'
+    ParentColor = False
+  end
+  object RunningLabel: TLabel
+    Left = 129
+    Height = 17
+    Top = 43
+    Width = 55
+    Caption = 'Running!'
+    Font.Color = clRed
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+  object Countdown: TLabel
+    Left = 8
+    Height = 17
+    Top = 43
+    Width = 61
+    Caption = 'Time Left:'
+    Font.Color = clRed
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+  object Timer1: TTimer
+    Enabled = False
+    OnTimer = Timer1Timer
+    left = 80
+    top = 80
+  end
+  object Timer2: TTimer
+    Enabled = False
+    OnTimer = Timer2Timer
+    left = 13
+    top = 89
+  end
+end
