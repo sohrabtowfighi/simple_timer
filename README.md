@@ -1,7 +1,7 @@
 # simple_timer
 (c) Sohrab Towfighi 2016
 
-See LICENCE.md
+See LICENSE file.
 
 A quick and easy timer. One exe file, one data input, one beep. 
 
