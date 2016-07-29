@@ -1,5 +1,5 @@
 # simple_timer
-(c) Sohrab Towfighi
+Sohrab Towfighi 2016
 
 LGPL 2.1 Licence
 
