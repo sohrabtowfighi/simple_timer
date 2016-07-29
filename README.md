@@ -1,7 +1,7 @@
 # simple_timer
-Sohrab Towfighi 2016
+(c) Sohrab Towfighi 2016
 
-LGPL 2.1 Licence
+See LICENCE.md
 
 A quick and easy timer. One exe file, one data input, one beep. 
 
